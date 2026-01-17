@@ -1,0 +1,18 @@
+#define sizeX 3
+#define sizeY 4
+struct led{
+  int Pin;
+  int Value;
+};
+led Field[sizeX][sizeY];
+int Xpos;
+int Ypos;
+void setup() {
+  Xpos=0;
+  Ypos=0; 
+
+}
+
+void loop() {
+
+}
