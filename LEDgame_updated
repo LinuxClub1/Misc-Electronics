@@ -8,19 +8,19 @@ struct led{
 led field [4] [3];
 
 void setup() 
-field [0][0].pin=;
-field [1][0].pin=;
-field [2][0].pin=;
-field [3][0].pin=;
-field [0][1].pin=;
-field [1][1].pin=;
-field [2][1].pin=;
-field [3][1].pin=;
-field [0][2].pin=;
-field [1][2].pin=;
-field [2][2].pin=;
-field [3][2].pin=;
 {
+field [0][0].pin=5;
+field [1][0].pin=3;
+field [2][0].pin=4;
+field [3][0].pin=2;
+field [0][1].pin=6;
+field [1][1].pin=11;
+field [2][1].pin=12;
+field [3][1].pin=9;
+field [0][2].pin=7;
+field [1][2].pin=10;
+field [2][2].pin=8;
+field [3][2].pin=13;
 for(int index=0; index<4;index++){
 for(int index2=0; index2<3;index2++)
   {
